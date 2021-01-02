@@ -1,12 +1,8 @@
 module.exports = {
   purge: ['./**/*.html'],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: false,
   theme: {
-    extend: {
-      colors: {
-        'brand-lemon': 'yellow'
-      }
-    },
+    extend: {},
   },
   variants: {
     extend: {},
