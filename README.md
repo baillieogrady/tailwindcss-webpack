@@ -1,6 +1,6 @@
 # TailwindCSS Webpack template
 
-Static TailwindCSS setup with Webpack 5.
+Simple static TailwindCSS setup with Webpack 5.
 
 ## Installation
 
