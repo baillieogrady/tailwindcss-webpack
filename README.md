@@ -1,4 +1,4 @@
-# TailwindCSS & Webpack template
+# TailwindCSS Webpack template
 
 Static TailwindCSS setup with Webpack 5.
 
@@ -12,7 +12,7 @@ $ npm install
 
 ## Development
 
-Compile assets and run a dev server, refreshing on file changes
+Compile assets and run a dev server, refreshing on file changes and injecting CSS into the index.html head.
 
 ```shell
 $ npm run start

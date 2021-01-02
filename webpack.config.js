@@ -8,7 +8,6 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
-  devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
   },
@@ -16,7 +15,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'TailwindCSS & Webpack',
       template: 'src/index.html'
     }),
   ],
